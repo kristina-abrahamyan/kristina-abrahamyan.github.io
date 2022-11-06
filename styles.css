@@ -424,11 +424,10 @@ span.circle1 {
 
 }
 
-.mobile,
-.email {
-  /* style="width: 50%; float:left; margin-left:15%; font-size: 14pt"
-  style="margin-left: 55%;  */
-  font-size: 14pt;
+.contacting {
+  margin-top:0;
+  margin-right: 170px;
+  margin-left: 170px;
   display:flex;
   align-items: center;
   justify-content: space-between;
