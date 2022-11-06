@@ -1,0 +1,425 @@
+/* font is 14 for normal text;
+for names of places it's 15pt
+for section names it's 18pt */
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0px;
+
+}
+
+/* Add a background color to the top navigation */
+.Top_Navigation {
+  position: fixed;
+  background-color: rgb(109, 53, 155);
+  overflow: hidden;
+  top:0;
+  width:100%;
+}
+
+/* Style the links inside the navigation bar */
+.Top_Navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.Top_Navigation a:hover {
+  background-color: rgb(145, 241, 107);
+  color: rgb(39, 106, 248);
+}
+
+/* Centered section inside the top navigation */
+.Top_Navigation .center {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.Top_Navigation .right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .Top_Navigation a, .Top_Navigation .right {
+    float: none;
+    display: block;
+  }
+
+  .Top_Navigation a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 22pt;
+    color: rgb(109, 53, 155);
+    /* color:grey;  */
+}
+h3 {
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: strong;
+}
+a[href*='kristina-abrahamyan'] {
+  color: rgb(109, 53, 155);
+}
+a:hover {
+  color: rgb(50, 85, 243);
+}
+#Educational_Background {
+    background-color: rgba(192, 192, 192, 0.137); 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#Professional_Experience {
+    background-color: rgba(236, 221, 250, 0.603); 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#My_Skills {
+    background-color: rgba(192, 192, 192, 0.137); 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#Languages {
+    background-color: rgba(236, 221, 250, 0.603); 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#Interesting_Facts_About_Me {
+    background-color: rgba(192, 192, 192, 0.137); 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#Extracurricular_Activities {
+    background-color:rgba(236, 221, 250, 0.603); 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#Video {
+    background-color: rgba(192, 192, 192, 0.137); 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#Contact_Me {
+    border-top: 7px double rgb(109, 53, 155);
+    background-color: rgba(214, 171, 253, 0.603); 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.About p,
+.About h3 {
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+/* .About li {
+    font-weight: normal;
+    color: rgb(226, 226, 226);
+    text-align: center
+} */
+
+html,
+body{
+    margin:0px ;
+    padding:0px;
+    border:0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.About {
+    background-image: url("London.png");
+    background-size:cover; 
+    background-repeat:no-repeat;
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+
+.Intro_block{
+    font-size: 20pt;
+    /* position: relative;
+    left: 100px; */
+    padding: 30px;
+    width: auto;
+    height:auto;
+    max-width: 600px;
+    /* margin: 0 auto; */
+    margin-bottom:0;
+    font-weight: bolder;
+}
+
+/* .languages_list .English, 
+.languages_list .Spanish,
+.languages_list .Armenian,
+.languages_list .Russian,
+.languages_list .French {
+    border:3px solid white;
+    border-radius: 50%;
+    height:auto;
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+} */
+/* #Awards{
+    float:left ;
+    width: 33.33% ;
+    padding: 5px ;
+}
+.Certificates::after {
+    content: "" ;
+    clear: both ;
+    display: table ;
+} */
+
+
+.block p.description {
+    color:rgb(99, 99, 99);
+    margin-top: 0;
+    margin-left: 0;
+}
+.block h3 {
+    margin-bottom: 0;
+}
+.block {
+  margin-top:0;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+
+/* THE PART TO BE CHANGED IF THE FONT IS BAD */
+.block p {
+  font-size: 13pt;
+}
+
+
+.date {
+  color:rgb(99, 99, 99);
+}
+.career_block p.description {
+  color:rgb(99, 99, 99);
+  margin-left: 0;
+}
+.career_block h3 {
+  margin-bottom: 0;
+  font-size: 15pt;
+}
+.career_block {
+margin-top:0;
+margin-right: 170px;
+margin-left: 170px;
+}
+.career_block p {
+font-size: 14pt;
+}
+
+#quote,
+#goal,
+#sewing,
+#spiders {
+/* position: relative;
+    left: 100px; */
+    text-align: justify;
+    width: 45%;
+    height:auto;
+    /* max-width: 600px; */
+    margin: 0% 0% 0% 25%;
+    margin-bottom:0px;
+    border: 2px solid rgb(124, 97, 245); 
+    padding:20px;
+    /* width: fit-content; 
+    width:-webkit-fit-content; 
+    width:-moz-fit-content; */
+    font-size: 14pt;
+}
+#fact_lines{
+  margin-top:0;
+  margin-right: 170px;
+  margin-left: 170px;
+  }
+
+#quote_sign{
+  font-size: 50pt;
+  margin: 0% 0% 0% 15%;
+  float: left;
+}
+
+#globe{
+  font-size: 40pt;
+  margin: 0% 0% 0% 15%;
+  float: left;
+}
+#sewing_photo{
+  max-width: 200pt;
+  height: auto;
+  float: right;
+  margin: 0% 0% 0% 0%;
+}
+
+#spider_photo{
+  font-size: 13pt;
+  font-style: italic;
+  float: left;
+  margin: 1% 0% 0% 10%;
+}
+
+h4 {
+  font-size: 19pt;
+  margin-bottom: 15px;
+  color: black;
+}
+
+#Volunt,
+#BBG_link,
+#Lords,
+#Lamda {
+  border-radius: 30px;
+}
+
+#extra,
+#Awards {
+  font-size: 14pt;
+  font-style: italic;
+  color: black;
+}
+
+.awards_block {
+  margin-top:0;
+  margin-right: 170px;
+  margin-left: 170px;
+  }
+  
+.Video {
+  margin-top:0;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+
+.languages_block {
+  margin-top:0;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+
+.skills_block {
+  margin-top:0;
+  margin-right: 170px;
+  margin-left: 170px;
+  display:flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+span.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid rgb(109, 53, 155);
+  /* display: table-cell; */
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  line-height: 150px;
+}
+
+.skills_block1 {
+  margin-top:0;
+  margin-right: 300px;
+  margin-left: 300px;
+  display:flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+span.circle1 {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 2px solid rgb(109, 53, 155);
+  /* display: table-cell; */
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  line-height: 125px;
+}
+
+#lang_intro {
+  /* float:left ;  */
+  border: 6px solid white; 
+  border-radius: 30px;
+  padding:25px;
+  font-size: 20pt;
+  max-width: 400px;
+  /* margin: 0 auto; */
+}
+
+.languages_list {
+  font-style: italic;
+  /* padding-left: 5px; */
+  justify-content: space-between;
+  font-size: 14pt;
+}
+
+.languages_list {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
