@@ -387,8 +387,8 @@ span.circle {
 }
 
 span.circle1 {
-  width: 125px;
-  height: 125px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   border: 2px solid rgb(109, 53, 155);
   /* display: table-cell; */
@@ -397,7 +397,7 @@ span.circle1 {
   cursor: pointer;
   transition: all 0.4s ease-in-out;
   text-align: center;
-  line-height: 125px;
+  line-height: 130px;
 }
 
 #lang_intro {
