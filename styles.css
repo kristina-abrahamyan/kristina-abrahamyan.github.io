@@ -423,3 +423,13 @@ span.circle1 {
   justify-content: space-between;
 
 }
+
+.mobile,
+.email {
+  /* style="width: 50%; float:left; margin-left:15%; font-size: 14pt"
+  style="margin-left: 55%;  */
+  font-size: 14pt;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
