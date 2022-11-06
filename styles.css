@@ -76,6 +76,7 @@ h3 {
     text-align: left;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: strong;
+    font-size: 15;
 }
 a[href*='kristina-abrahamyan'] {
   color: rgb(109, 53, 155);
@@ -241,9 +242,9 @@ body{
 }
 
 /* THE PART TO BE CHANGED IF THE FONT IS BAD */
-.block p {
+/* .block p {
   font-size: 13pt;
-}
+} */
 
 
 .date {
